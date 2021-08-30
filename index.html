@@ -13,6 +13,7 @@
 
     <!-- ===== CSS ===== -->
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/popup.css">
 
     <title>Nandinee's Portfolio</title>
 
@@ -63,7 +64,7 @@
                     <span class="home__greeting">Hello my name is</span>
                     <h1 class="home__name">Nandinee Gupta</h1>
                     <span class="home__profession">I'm a Web Developer</span>
-                    <a download="" href="assets/pdf/Nandinee's_resume.pdf" class="button button-light home__button">Download CV</a>
+                    <a download="" href="assets/pdf/Nandinee's-resume.pdf" class="button button-light home__button">Download CV</a>
                 </div>
 
                 <div class="home__social">
@@ -237,6 +238,7 @@
 
 
         <!--===== SERVICES =====-->
+        <a name ="my_services"></a>
         <section class="services section bd-container" id="services">
             <span class="section-subtitle">What I offer</span>
             <h2 class="section-title">Services</h2>
@@ -248,7 +250,21 @@
                     <h3 class="service__title">Frontend Development</h3>
                     <p class="service__description">Service that I offer & work,
                         with lot of experience in the work area.</p>
-                    <a href="#my_portfolio" class="button">Know More</a>
+                    <!-- <a href="#my_portfolio" class="button">Know More</a> -->
+
+                    <!-- -------------popup------------------------- -->
+                    <div class="box">
+                        <a class="button" href="#popup1">Know More</a>
+                    </div>
+                    <div id="popup1" class="overlay">
+                        <div class="popup">
+                            <h2>Frontend</h2>
+                            <a class="close" href="#my_services">&times;</a>
+                            <div class="content">
+                                In frontend I know languages like HTML5, CSS3, JavaScript, Bootstrap, ReactJS.
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="services__data">
@@ -256,7 +272,21 @@
                     <h3 class="service__title">Backend Development</h3>
                     <p class="service__description">Service that I offer & work,
                         with lot of experience in the work area.</p>
-                    <a href="#my_portfolio" class="button">Know More</a>
+                    <!-- <a href="#my_portfolio" class="button">Know More</a> -->
+
+                    <!-- -------------popup------------------------- -->
+                    <div class="box">
+                        <a class="button" href="#popup2">Know More</a>
+                    </div>
+                    <div id="popup2" class="overlay">
+                        <div class="popup">
+                            <h2>Backend</h2>
+                            <a class="close" href="#my_services">&times;</a>
+                            <div class="content">
+                                For Backend Development I know NodeJS, ExpressJS, MongoDB
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="services__data">
@@ -264,7 +294,21 @@
                     <h3 class="service__title">Web API's</h3>
                     <p class="service__description">Service that I offer & work,
                         with lot of experience in the work area.</p>
-                    <a href="#my_portfolio" class="button">Know More</a>
+                    <!-- <a href="#my_portfolio" class="button">Know More</a> -->
+
+                    <!-- -------------popup------------------------- -->
+                    <div class="box">
+                        <a class="button" href="#popup3">Know More</a>
+                    </div>
+                    <div id="popup3" class="overlay">
+                        <div class="popup">
+                            <h2>APIs</h2>
+                            <a class="close" href="#my_services">&times;</a>
+                            <div class="content">
+                                For Application Programming Interface I know Postman, ExpressJS, NodeJS, MongoDB.
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
